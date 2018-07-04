@@ -1,0 +1,165 @@
+*{margin:0; padding:0;}
+a{
+	text-decoration:none;
+	color:black;
+}
+body{
+	background:white;
+	border-top:5px solid #e40520;
+}
+li{list-style:none;}
+#title{
+	width:61%;
+	height:100px;
+	margin:0 auto;
+	outline:0px solid white;
+}
+#title div{
+	float:left;
+}
+#title #logo{
+	width:200px;
+	height:100px;
+	outline:0px solid blue;
+}
+#logo a img{
+	width:200px;
+	margin-top:30px;
+}
+#title #menu{
+	width: 900px;
+	height: 100px;
+	outline:0px solid red;
+	margin-left:50px;
+}
+#title #menu #top_menu{
+	width:900px;	
+	height:30px;
+	outline:0px solid black;
+}
+#top_menu ul#log1{
+	width:900px;
+	height:30px;
+	outline:0px solid black;
+	margin-left:120px;
+}
+#top_menu #log1 li{
+	width:110px;
+	height:30px;
+	outline:0px solid black;
+	float:left;
+	text-align:center;
+	font-size:12px;
+	color:#313131;
+	line-height:30px;
+	
+}
+#top_menu #log1 li:hover{
+	color:#e40520;
+	font-weight:bold;
+	text-decoration:underline;
+	cursor:pointer;
+}
+#title #menu #bot_menu{
+	width:900px;
+	height:70px;
+	outline:0px solid skyblue;
+}
+#bot_menu #log2{
+	height:70px;
+	outline:0px solid blue;
+	float:right;
+}
+#bot_menu #log2 li{
+	height:70px;
+	width:120px;
+	outline:0px solid black;
+	float:left;
+	cursor:pointer;
+	line-height:70px;
+	color:#313131;
+	font-weight:bold;
+	font-size:13px;
+	text-align:center;
+	
+}
+#bot_menu #log2 li:hover{
+	color:#e40520;
+}
+#main_menu{
+	width:100%;
+	height:50px;
+	outline:1px solid #ddd;
+}
+#main_menu #wholemenu{
+	width:60%;
+	height:50px;
+
+	margin:0 auto;
+}
+#main_menu #wholemenu #whole{
+	width:25%;
+	height:50px;
+	outline:1px solid #ddd;
+	font-size:14px;
+	font-weight:bold;
+}
+#main_menu #wholemenu #whole div{
+	margin-left:30px;
+}
+#main_menu #wholemenu div{
+	width:13%;
+	height:50px;
+	float:left;
+	text-align:center;
+	line-height:50px;
+	font-size:12px;
+	color:#313131;
+	outline:0px solid black;
+}
+#main_menu #wholemenu div:hover{
+	font-weight:bold;
+	color:#e40520;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+#bottom{
+	width:100%;
+	height:200px;
+	border-top:5px solid #ccc;
+	margin-top:0px;
+}
+#bottom #bottom1{
+	width:100%;
+	height:50px;
+	width:100%;
+	background:#f1f1f1;
+}
+#bottom div div{
+	width:60%;
+	height:50px;
+	margin:0 auto;
+}
+#bottom div div div:nth-child(1){
+	height:50px;
+	margin:0 auto;
+	text-align:left;
+	font-size:13px;
+	line-height:50px;
+	float:left;
+}
+#bottom div div div:nth-child(2){
+	width:190px;
+	height:20px;
+	float:right;
+	border:0px solid black;
+	margin-top:13px;
+}
+
+#wmp{
+	height:180px;
+	width:60%;
+	margin:20px auto;
+	font-size:14px;
+}

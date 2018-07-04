@@ -1,0 +1,26 @@
+*{margin:0; padding:0;}
+body{
+	background:#f1f1f1;
+}
+#wrap{
+	width:60%;
+	height:700px;
+	outline:0px solid black;
+	margin:100px auto;
+}
+#wrap div{
+	float:left;
+	height:100%;
+	outline:0px solid black;
+	text-align:center;
+}
+#wrap div:nth-child(1){
+	width:30%;
+}
+#wrap div:nth-child(2){
+	width:70%;
+}
+#wrap #img img{
+	width:250px;
+	margin-top:100px;
+}
